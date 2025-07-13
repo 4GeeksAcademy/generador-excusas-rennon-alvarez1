@@ -1,5 +1,59 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
 body{
-    background: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-gradiente_79603-1410.jpg?semt=ais_hybrid&w=740");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 90%;
+    max-width: 600px;
+    height: 600px;
+}
+.header-container{
+    background-color: rgb(162, 162, 162, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.header-container h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    color: white;
+}
+.excusas-container{
+    text-align: center;
+    color: rgb(185, 185, 185);
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.imagen-container{
+    margin-top: 30px;
+    text-align: center;
+}
+.imagen-container img {
+    width: 300px;
+    max-width: 100%;
+}
+.imagen-container1{
+     margin-top: 30px;
+    text-align: center;
+}
+.imagen-container1 img{
+    width: 300px;
+    max-width: 100%; 
+    transform: scaleY(-1);
+    opacity: 0.5;
+    margin-top: -30px;
+    filter: blur(1px);
+    mask-image: linear-gradient(to bottom, rgba (0, 0, 0, 0.5), transparent);
 }
